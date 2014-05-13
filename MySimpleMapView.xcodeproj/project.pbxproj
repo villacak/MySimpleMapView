@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		33A2674B192247770086C75A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33A2674A192247770086C75A /* Foundation.framework */; };
+		33A2674D192247770086C75A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33A2674C192247770086C75A /* CoreGraphics.framework */; };
+		33A2674F192247770086C75A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33A2674E192247770086C75A /* UIKit.framework */; };
+		33A26755192247770086C75A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 33A26753192247770086C75A /* InfoPlist.strings */; };
+		33A26757192247770086C75A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 33A26756192247770086C75A /* main.m */; };
+		33A2675B192247770086C75A /* KVAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 33A2675A192247770086C75A /* KVAppDelegate.m */; };
+		33A2675E192247770086C75A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33A2675C192247770086C75A /* Main.storyboard */; };
+		33A26761192247770086C75A /* KVViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33A26760192247770086C75A /* KVViewController.m */; };
+		33A26763192247770086C75A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33A26762192247770086C75A /* Images.xcassets */; };
+		33A2676A192247770086C75A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33A26769192247770086C75A /* XCTest.framework */; };
+		33A2676B192247770086C75A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33A2674A192247770086C75A /* Foundation.framework */; };
+		33A2676C192247770086C75A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33A2674E192247770086C75A /* UIKit.framework */; };
+		33A26774192247770086C75A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 33A26772192247770086C75A /* InfoPlist.strings */; };
+		33A26776192247770086C75A /* MySimpleMapViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 33A26775192247770086C75A /* MySimpleMapViewTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		33A2676D192247770086C75A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 33A2673F192247770086C75A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33A26746192247770086C75A;
+			remoteInfo = MySimpleMapView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		33A26747192247770086C75A /* MySimpleMapView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MySimpleMapView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		33A2674A192247770086C75A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		33A2674C192247770086C75A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		33A2674E192247770086C75A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		33A26752192247770086C75A /* MySimpleMapView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MySimpleMapView-Info.plist"; sourceTree = "<group>"; };
+		33A26754192247770086C75A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		33A26756192247770086C75A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		33A26758192247770086C75A /* MySimpleMapView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MySimpleMapView-Prefix.pch"; sourceTree = "<group>"; };
+		33A26759192247770086C75A /* KVAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KVAppDelegate.h; sourceTree = "<group>"; };
+		33A2675A192247770086C75A /* KVAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KVAppDelegate.m; sourceTree = "<group>"; };
+		33A2675D192247770086C75A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		33A2675F192247770086C75A /* KVViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KVViewController.h; sourceTree = "<group>"; };
+		33A26760192247770086C75A /* KVViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KVViewController.m; sourceTree = "<group>"; };
+		33A26762192247770086C75A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		33A26768192247770086C75A /* MySimpleMapViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MySimpleMapViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		33A26769192247770086C75A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		33A26771192247770086C75A /* MySimpleMapViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MySimpleMapViewTests-Info.plist"; sourceTree = "<group>"; };
+		33A26773192247770086C75A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		33A26775192247770086C75A /* MySimpleMapViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MySimpleMapViewTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		33A26744192247770086C75A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33A2674D192247770086C75A /* CoreGraphics.framework in Frameworks */,
+				33A2674F192247770086C75A /* UIKit.framework in Frameworks */,
+				33A2674B192247770086C75A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33A26765192247770086C75A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33A2676A192247770086C75A /* XCTest.framework in Frameworks */,
+				33A2676C192247770086C75A /* UIKit.framework in Frameworks */,
+				33A2676B192247770086C75A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		33A2673E192247770086C75A = {
+			isa = PBXGroup;
+			children = (
+				33A26750192247770086C75A /* MySimpleMapView */,
+				33A2676F192247770086C75A /* MySimpleMapViewTests */,
+				33A26749192247770086C75A /* Frameworks */,
+				33A26748192247770086C75A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		33A26748192247770086C75A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				33A26747192247770086C75A /* MySimpleMapView.app */,
+				33A26768192247770086C75A /* MySimpleMapViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		33A26749192247770086C75A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				33A2674A192247770086C75A /* Foundation.framework */,
+				33A2674C192247770086C75A /* CoreGraphics.framework */,
+				33A2674E192247770086C75A /* UIKit.framework */,
+				33A26769192247770086C75A /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		33A26750192247770086C75A /* MySimpleMapView */ = {
+			isa = PBXGroup;
+			children = (
+				33A26759192247770086C75A /* KVAppDelegate.h */,
+				33A2675A192247770086C75A /* KVAppDelegate.m */,
+				33A2675C192247770086C75A /* Main.storyboard */,
+				33A2675F192247770086C75A /* KVViewController.h */,
+				33A26760192247770086C75A /* KVViewController.m */,
+				33A26762192247770086C75A /* Images.xcassets */,
+				33A26751192247770086C75A /* Supporting Files */,
+			);
+			path = MySimpleMapView;
+			sourceTree = "<group>";
+		};
+		33A26751192247770086C75A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				33A26752192247770086C75A /* MySimpleMapView-Info.plist */,
+				33A26753192247770086C75A /* InfoPlist.strings */,
+				33A26756192247770086C75A /* main.m */,
+				33A26758192247770086C75A /* MySimpleMapView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		33A2676F192247770086C75A /* MySimpleMapViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				33A26775192247770086C75A /* MySimpleMapViewTests.m */,
+				33A26770192247770086C75A /* Supporting Files */,
+			);
+			path = MySimpleMapViewTests;
+			sourceTree = "<group>";
+		};
+		33A26770192247770086C75A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				33A26771192247770086C75A /* MySimpleMapViewTests-Info.plist */,
+				33A26772192247770086C75A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		33A26746192247770086C75A /* MySimpleMapView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33A26779192247770086C75A /* Build configuration list for PBXNativeTarget "MySimpleMapView" */;
+			buildPhases = (
+				33A26743192247770086C75A /* Sources */,
+				33A26744192247770086C75A /* Frameworks */,
+				33A26745192247770086C75A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MySimpleMapView;
+			productName = MySimpleMapView;
+			productReference = 33A26747192247770086C75A /* MySimpleMapView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		33A26767192247770086C75A /* MySimpleMapViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33A2677C192247770086C75A /* Build configuration list for PBXNativeTarget "MySimpleMapViewTests" */;
+			buildPhases = (
+				33A26764192247770086C75A /* Sources */,
+				33A26765192247770086C75A /* Frameworks */,
+				33A26766192247770086C75A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33A2676E192247770086C75A /* PBXTargetDependency */,
+			);
+			name = MySimpleMapViewTests;
+			productName = MySimpleMapViewTests;
+			productReference = 33A26768192247770086C75A /* MySimpleMapViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		33A2673F192247770086C75A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = KV;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Klaus Villaca";
+				TargetAttributes = {
+					33A26767192247770086C75A = {
+						TestTargetID = 33A26746192247770086C75A;
+					};
+				};
+			};
+			buildConfigurationList = 33A26742192247770086C75A /* Build configuration list for PBXProject "MySimpleMapView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 33A2673E192247770086C75A;
+			productRefGroup = 33A26748192247770086C75A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				33A26746192247770086C75A /* MySimpleMapView */,
+				33A26767192247770086C75A /* MySimpleMapViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		33A26745192247770086C75A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33A26763192247770086C75A /* Images.xcassets in Resources */,
+				33A26755192247770086C75A /* InfoPlist.strings in Resources */,
+				33A2675E192247770086C75A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33A26766192247770086C75A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33A26774192247770086C75A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		33A26743192247770086C75A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33A26761192247770086C75A /* KVViewController.m in Sources */,
+				33A26757192247770086C75A /* main.m in Sources */,
+				33A2675B192247770086C75A /* KVAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33A26764192247770086C75A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33A26776192247770086C75A /* MySimpleMapViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		33A2676E192247770086C75A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 33A26746192247770086C75A /* MySimpleMapView */;
+			targetProxy = 33A2676D192247770086C75A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		33A26753192247770086C75A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33A26754192247770086C75A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		33A2675C192247770086C75A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33A2675D192247770086C75A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		33A26772192247770086C75A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33A26773192247770086C75A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		33A26777192247770086C75A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		33A26778192247770086C75A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		33A2677A192247770086C75A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MySimpleMapView/MySimpleMapView-Prefix.pch";
+				INFOPLIST_FILE = "MySimpleMapView/MySimpleMapView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		33A2677B192247770086C75A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MySimpleMapView/MySimpleMapView-Prefix.pch";
+				INFOPLIST_FILE = "MySimpleMapView/MySimpleMapView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		33A2677D192247770086C75A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MySimpleMapView.app/MySimpleMapView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MySimpleMapView/MySimpleMapView-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MySimpleMapViewTests/MySimpleMapViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		33A2677E192247770086C75A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MySimpleMapView.app/MySimpleMapView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MySimpleMapView/MySimpleMapView-Prefix.pch";
+				INFOPLIST_FILE = "MySimpleMapViewTests/MySimpleMapViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		33A26742192247770086C75A /* Build configuration list for PBXProject "MySimpleMapView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33A26777192247770086C75A /* Debug */,
+				33A26778192247770086C75A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33A26779192247770086C75A /* Build configuration list for PBXNativeTarget "MySimpleMapView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33A2677A192247770086C75A /* Debug */,
+				33A2677B192247770086C75A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		33A2677C192247770086C75A /* Build configuration list for PBXNativeTarget "MySimpleMapViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33A2677D192247770086C75A /* Debug */,
+				33A2677E192247770086C75A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 33A2673F192247770086C75A /* Project object */;
+}
