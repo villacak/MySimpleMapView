@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3381AB74192380C500826452 /* KVMyAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3381AB73192380C500826452 /* KVMyAnnotation.m */; };
 		33A2674B192247770086C75A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33A2674A192247770086C75A /* Foundation.framework */; };
 		33A2674D192247770086C75A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33A2674C192247770086C75A /* CoreGraphics.framework */; };
 		33A2674F192247770086C75A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33A2674E192247770086C75A /* UIKit.framework */; };
@@ -21,6 +22,8 @@
 		33A2676C192247770086C75A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33A2674E192247770086C75A /* UIKit.framework */; };
 		33A26774192247770086C75A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 33A26772192247770086C75A /* InfoPlist.strings */; };
 		33A26776192247770086C75A /* MySimpleMapViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 33A26775192247770086C75A /* MySimpleMapViewTests.m */; };
+		33A267801922479A0086C75A /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33A2677F1922479A0086C75A /* CoreLocation.framework */; };
+		33A26782192247B80086C75A /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33A26781192247B80086C75A /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3381AB72192380C500826452 /* KVMyAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KVMyAnnotation.h; sourceTree = "<group>"; };
+		3381AB73192380C500826452 /* KVMyAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KVMyAnnotation.m; sourceTree = "<group>"; };
 		33A26747192247770086C75A /* MySimpleMapView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MySimpleMapView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		33A2674A192247770086C75A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		33A2674C192247770086C75A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +58,8 @@
 		33A26771192247770086C75A /* MySimpleMapViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MySimpleMapViewTests-Info.plist"; sourceTree = "<group>"; };
 		33A26773192247770086C75A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		33A26775192247770086C75A /* MySimpleMapViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MySimpleMapViewTests.m; sourceTree = "<group>"; };
+		33A2677F1922479A0086C75A /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		33A26781192247B80086C75A /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +67,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33A26782192247B80086C75A /* MapKit.framework in Frameworks */,
+				33A267801922479A0086C75A /* CoreLocation.framework in Frameworks */,
 				33A2674D192247770086C75A /* CoreGraphics.framework in Frameworks */,
 				33A2674F192247770086C75A /* UIKit.framework in Frameworks */,
 				33A2674B192247770086C75A /* Foundation.framework in Frameworks */,
@@ -101,6 +110,8 @@
 		33A26749192247770086C75A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				33A26781192247B80086C75A /* MapKit.framework */,
+				33A2677F1922479A0086C75A /* CoreLocation.framework */,
 				33A2674A192247770086C75A /* Foundation.framework */,
 				33A2674C192247770086C75A /* CoreGraphics.framework */,
 				33A2674E192247770086C75A /* UIKit.framework */,
@@ -119,6 +130,8 @@
 				33A26760192247770086C75A /* KVViewController.m */,
 				33A26762192247770086C75A /* Images.xcassets */,
 				33A26751192247770086C75A /* Supporting Files */,
+				3381AB72192380C500826452 /* KVMyAnnotation.h */,
+				3381AB73192380C500826452 /* KVMyAnnotation.m */,
 			);
 			path = MySimpleMapView;
 			sourceTree = "<group>";
@@ -251,6 +264,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				33A26761192247770086C75A /* KVViewController.m in Sources */,
+				3381AB74192380C500826452 /* KVMyAnnotation.m in Sources */,
 				33A26757192247770086C75A /* main.m in Sources */,
 				33A2675B192247770086C75A /* KVAppDelegate.m in Sources */,
 			);
@@ -457,6 +471,7 @@
 				33A2677B192247770086C75A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		33A2677C192247770086C75A /* Build configuration list for PBXNativeTarget "MySimpleMapViewTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +480,7 @@
 				33A2677E192247770086C75A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

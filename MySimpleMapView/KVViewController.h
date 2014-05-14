@@ -7,7 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <MapKit/MapKit.h>
 
-@interface KVViewController : UIViewController
+@interface KVViewController : UIViewController<MKMapViewDelegate, CLLocationManagerDelegate>
+
+@property (nonatomic, strong) MKMapView *myMapView;
+
 
 @end
