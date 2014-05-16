@@ -36,6 +36,7 @@ KVMyAnnotation *annotation;
     self.myMapView = [[MKMapView alloc] initWithFrame:self.view.bounds];
     self.myMapView.mapType = MKMapTypeSatellite;
     self.myMapView.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
+    self.myMapView.delegate = self;
     [self.view addSubview:self.myMapView];
     
     
@@ -74,6 +75,7 @@ KVMyAnnotation *annotation;
     mapRegion.center = location;
     mapRegion.span = MKCoordinateSpanMake(0.2, 0.2);
     [myMapView setRegion:mapRegion animated:YES];
+    
     
     myMapView.showsUserLocation = YES;
     [myMapView setZoomEnabled:YES];
